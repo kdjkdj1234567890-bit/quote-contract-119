@@ -131,7 +131,7 @@ button, input, select, textarea { font-family: inherit; }
 .hero-paper { position: relative; }
 .hero-sheet {
   position: relative; background: #fff; border: 1px solid var(--line);
-  border-radius: 4px; padding: 26px 26px 22px;
+  border-radius: 4px; padding: 26px 26px 92px;
   box-shadow: var(--shadow-lg);
   transform: rotate(-1.4deg);
 }
@@ -151,15 +151,15 @@ button, input, select, textarea { font-family: inherit; }
 .hero-total span { font-size: 11px; color: var(--muted); }
 .hero-total b { font-family: var(--serif); font-size: 19px; letter-spacing: -.02em; }
 .hero-stamp {
-  position: absolute; right: -6px; bottom: 26px; width: 84px; height: 84px;
+  position: absolute; left: 24px; bottom: 14px; width: 76px; height: 76px;
   border: 2.5px solid rgba(177, 58, 46, .75); border-radius: 50%;
   display: grid; place-items: center; text-align: center;
   color: rgba(177, 58, 46, .85); font-family: var(--serif); font-weight: 800;
-  font-size: 13px; line-height: 1.25; letter-spacing: .04em;
-  transform: rotate(11deg); opacity: .9;
+  font-size: 12px; line-height: 1.25; letter-spacing: .04em;
+  transform: rotate(9deg); opacity: .9;
   box-shadow: inset 0 0 0 3px rgba(177, 58, 46, .12);
 }
-.hero-stamp small { display: block; font-family: var(--sans); font-size: 8.5px; letter-spacing: .18em; font-weight: 700; }
+.hero-stamp small { display: block; font-family: var(--sans); font-size: 7.5px; letter-spacing: .18em; font-weight: 700; }
 .hero-tag {
   position: absolute; left: -14px; top: -13px;
   background: var(--ink); color: var(--paper); font-size: 11px; font-weight: 700;
@@ -568,6 +568,10 @@ input[type="number"] { font-variant-numeric: tabular-nums; }
   .paper-title { font-size: 21px; letter-spacing: .2em; }
   .paper-head { flex-direction: column; gap: 10px; }
   .paper-meta { text-align: left; }
+  .p-parties tr { display: flex; flex-wrap: wrap; align-items: baseline; }
+  .p-parties th { width: 46px; padding: 2px 4px 4px 0; }
+  .p-parties td { flex: 1 1 68%; padding: 2px 0 4px; }
+  .p-parties-2 th { width: 78px; }
   .p-cols { grid-template-columns: 1fr; gap: 4px; }
   .p-table { font-size: 10.5px; }
   .p-table th, .p-table td { padding: 6px 3px; }
@@ -580,6 +584,7 @@ input[type="number"] { font-variant-numeric: tabular-nums; }
   .doc-tools { margin-left: 0; width: 100%; }
   .doc-tools .btn { flex: 1; }
   .hero-actions .btn { width: 100%; }
+  .hero-tag { left: 8px; top: -12px; }
   .contact-card { padding: 18px; }
   .compare { font-size: 12px; }
   .compare th, .compare td { padding: 9px 8px; }
