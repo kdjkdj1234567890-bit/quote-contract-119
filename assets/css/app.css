@@ -161,7 +161,7 @@ button, input, select, textarea { font-family: inherit; }
 }
 .hero-stamp small { display: block; font-family: var(--sans); font-size: 7.5px; letter-spacing: .18em; font-weight: 700; }
 .hero-tag {
-  position: absolute; left: -14px; top: -13px;
+  position: absolute; left: -14px; top: -13px; z-index: 3;
   background: var(--ink); color: var(--paper); font-size: 11px; font-weight: 700;
   padding: 5px 11px; border-radius: 6px; transform: rotate(-4deg);
   box-shadow: 0 8px 18px -10px rgba(0,0,0,.5);
