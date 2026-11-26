@@ -514,13 +514,28 @@ input[type="number"] { font-variant-numeric: tabular-nums; }
   #printArea { display: block !important; }
   #printArea .paper {
     display: block !important; box-shadow: none; border: 0; padding: 0;
-    max-width: none; width: 100%; font-size: 9.6pt; line-height: 1.8;
+    max-width: none; width: 100%; font-size: 9pt; line-height: 1.62;
   }
-  #printArea .paper-meta { font-size: 8pt; }
-  #printArea .paper-title { font-size: 20pt; }
-  #printArea .p-table td, #printArea .p-table th { padding: 5px 6px; }
-  #printArea .p-article { break-inside: avoid; }
-  #printArea .p-article p { font-size: 9.2pt; }
+  #printArea .paper-meta { font-size: 7.6pt; line-height: 1.7; }
+  #printArea .paper-title { font-size: 19pt; }
+  #printArea .paper-head { padding-bottom: 8px; margin-bottom: 10px; }
+  #printArea .p-parties { margin-bottom: 8px; }
+  #printArea .p-subject { font-size: 14pt; margin-bottom: 4px; }
+  #printArea .p-lead { margin-bottom: 8px; }
+  #printArea .p-table td, #printArea .p-table th { padding: 3.4px 5px; }
+  #printArea .p-sum { margin: 4px 0 10px; }
+  #printArea .p-sum > div { padding: 2.4px 0; }
+  #printArea .p-sum .p-total { padding-top: 4px; }
+  #printArea .p-sum .p-total b { font-size: 14pt; }
+  #printArea .p-h { margin: 10px 0 3px; }
+  #printArea .p-list li { margin-bottom: 1px; }
+  #printArea .p-foot { margin-top: 12px; padding-top: 7px; }
+  #printArea .p-article { break-inside: auto; margin-bottom: 9px; }
+  #printArea .p-article p { font-size: 8.8pt; line-height: 1.55; margin: 0; }
+  #printArea .p-article h3 { font-size: 9pt; margin-bottom: 1px; }
+  #printArea .p-sign { margin-top: 16px; padding-top: 10px; }
+  #printArea .p-date { margin-bottom: 10px; }
+  #printArea .p-sign-table td, #printArea .p-sign-table th { padding: 7px 0; }
   #printArea .p-sign { break-inside: avoid; }
   #printArea .p-h { break-after: avoid; }
 }
