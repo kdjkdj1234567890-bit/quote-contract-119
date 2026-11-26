@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kdjkdj1234567890-bit.github.io/quote-contract-119/sitemap.xml
